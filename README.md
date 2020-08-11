@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br  />
 
-Open [http://localhost:4000](http://localhost:4000) to open the playground.
+Open [http://localhost:4000](http://localhost:4000) to view the playground.
 
 
 Example `.env` file:
