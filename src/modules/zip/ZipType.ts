@@ -3,6 +3,9 @@ import { GraphQLObjectType, GraphQLString, GraphQLNonNull } from 'graphql';
 export default new GraphQLObjectType({
   name: 'ZipType',
   fields: {
+    cep: {
+      type: GraphQLNonNull(GraphQLString),
+    },
     logradouro: {
       type: GraphQLNonNull(GraphQLString),
     },
